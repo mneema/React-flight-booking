@@ -1,0 +1,10 @@
+.flights-info-container {
+  flex: 1;
+  text-align: left;
+}
+
+.flights-info-container .card{
+  margin: 10px;
+}
+
+

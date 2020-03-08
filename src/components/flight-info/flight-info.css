@@ -1,0 +1,32 @@
+.Flight-info {
+  display: flex;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.gray-background {
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 640px) {
+  .Flight-info .detail-label:nth-child(2) {
+    flex: 5 1 80%;
+    text-align: end;
+    margin-bottom: 15px;
+  }
+  .Flight-info .detail-label:nth-child(3), .Flight-info .detail-label:nth-child(4) {
+    flex: 2 1 32%;
+  }
+  .Flight-info .detail-label:nth-child(5) {
+    flex: 2 1 25%;
+  }
+  .Flight-info p {
+    flex: 1 1 70%;
+  }
+}

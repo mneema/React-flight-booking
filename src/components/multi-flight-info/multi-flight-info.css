@@ -1,0 +1,22 @@
+.Flight-info {
+  display: flex;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.layover-info {
+  text-align: center;
+  background-color: bisque;
+  font-weight: bold;
+  margin: 0;
+}
+
+.detail-label p {
+  font-size: 14px;
+}
